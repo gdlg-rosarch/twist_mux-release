@@ -2,19 +2,23 @@
 Changelog for package twist_mux
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.4 (2016-09-20)
+3.0.0 (2016-07-12)
 ------------------
-* Merge pull request `#10 <https://github.com/ros-teleop/twist_mux/issues/10>`_ from ros-teleop/fix_diagnostics
-  Fix diagnostics
-* Check if status changed on update
-* Add constness
-* Remove old/deprecated main_loop_time and reading_age
-* Add option to call diagnostics force_update()
-* Remove old/deprecated window_size arg
-* Merge pull request `#6 <https://github.com/ros-teleop/twist_mux/issues/6>`_ from artivis/SyntaxWarning
-  fix some SyntaxWarning
+* Merge pull request `#8 <https://github.com/ros-teleop/twist_mux/issues/8>`_ from ros-teleop/update_jade_from_indigo_devel
+  fix queue_size SyntaxWarning
 * fix queue_size SyntaxWarning
-* Contributors: Bence Magyar, Enrique Fernandez, Enrique Fernández Perdomo, Jeremie Deray
+* Update README.md
+  Add documentation link and build status.
+* Contributors: Enrique Fernández Perdomo, Jeremie Deray
+
+2.0.0 (2015-05-22)
+------------------
+* Add rosindex tags
+  http://rosindex.github.io/contribute/metadata/#metadata-elements
+* Add missed test dependencies on rospy, rostopic
+* Add .gitignore for *.pyc in test
+* Fix rostest dependency
+* Contributors: Enrique Fernandez
 
 1.0.3 (2015-04-04)
 ------------------

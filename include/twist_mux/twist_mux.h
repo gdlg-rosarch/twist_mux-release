@@ -52,7 +52,7 @@ public:
   typedef std::list<VelocityTopicHandle> velocity_topic_container;
   typedef std::list<LockTopicHandle>     lock_topic_container;
 
-  TwistMux();
+  TwistMux(int window_size = 10);
   ~TwistMux();
 
   bool hasPriority(const VelocityTopicHandle& twist);
